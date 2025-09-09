@@ -25,9 +25,9 @@ package(default_visibility = ["//visibility:public"])
 cc_ros_library(
     name = "msgs_cc",
     deps = [
-        "@builtin_interfaces//:msg__Time",
-        "@statistics_msgs//:msg__MetricsMessage",
-        "@statistics_msgs//:msg__StatisticDataType",
+        "@builtin_interfaces//msg:Time",
+        "@statistics_msgs//msg:MetricsMessage",
+        "@statistics_msgs//msg:StatisticDataType",
     ],
 )
 
