@@ -255,21 +255,3 @@ cc_library(
 #         "@type_description_interfaces",
 #     ],
 # )
-
-# # Package
-
-# ros_package(
-#     name = "libstatistics_collector",
-#     libraries = [
-#         "libstatistics_collector",
-#     ],
-#     binaries = [
-#         "benchmark_iterative",
-#     ],
-#     tests = [
-#         "test_collector",
-#         "test_moving_average_statistics",
-#         "test_received_message_age",
-#         "test_received_message_period",
-#     ],
-# )
